@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl'
+import Poképedia from '../Pokepedia-tagline.png'
 
 class Project extends Component {
     constructor(props) {
@@ -12,8 +13,8 @@ class Project extends Component {
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://wallpaperaccess.com/full/45639.jpg) center / cover'}} > Poképedia</CardTitle>
+                        <CardTitle style={{color: '#black', height: '176px', background: 
+                        'url(https://cdn.wccftech.com/wp-content/uploads/2016/08/Pokemon-GO-PokeBall.png) center / cover'}} > Poképedia</CardTitle>
                         <CardText>
                             Poképedia is an app that allows you to build and test Pokémon compositions, to see how they fair when fighting the main battles you face in the Pokémon games!
                         </CardText>
@@ -28,13 +29,13 @@ class Project extends Component {
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} > JavaScript Project</CardTitle>
+                        'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} > Friend Finder</CardTitle>
                         <CardText>
-                            Filler Text
+                        This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href='https://github.com/ThkPsss/FriendFinder'>GitHub</Button>
+                            <Button colored href='https://dashboard.heroku.com/apps/salty-shore-28280'>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name='share' />
@@ -43,13 +44,13 @@ class Project extends Component {
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} > JavaScript Project</CardTitle>
+                        'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} > GifTastic</CardTitle>
                         <CardText>
-                            Filler Text
+                        This site uses the GIPHY API to make a dynamic web page that populates with gifs of your choice. This app uses JavaScript and jQuery to change the HTML of the site when the GIPHY API is called.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href='https://github.com/ThkPsss/GifTastic'>GitHub</Button>
+                            <Button colored href='https://thkpsss.github.io/GifTastic/'>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name='share' />
