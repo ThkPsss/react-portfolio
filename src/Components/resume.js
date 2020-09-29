@@ -77,45 +77,6 @@ class Resume extends Component {
                             jobDescription="OAC is a call center that deals with outgoing calls to conduct surveys. I work as a Interviewer conducting these calls. Here I've leaned a lot more about customer service."
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
-                        <h2>Skills</h2>
-                        <Skills 
-                            skill="JavaScript"
-                            progress={80}
-                        />
-                        <Skills 
-                            skill="C#"
-                            progress={50}
-                        />
-                        <Skills 
-                            skill="Node.js"
-                            progress={50}
-                        />
-                        <Skills 
-                            skill="jQuery"
-                            progress={60}
-                        />
-                        <Skills 
-                            skill="CSS"
-                            progress={45}
-                        />
-                        <Skills 
-                            skill="HTML5"
-                            progress={55}
-                        />
-                        <Skills 
-                            skill="MySQL"
-                            progress={65}
-                        />
-                        <Skills 
-                            skill="MongoDB"
-                            progress={50}
-                        />
-                        <Skills 
-                            skill="React"
-                            progress={50}
-                        />
-                        
-            
                     </Cell>
                 </Grid>
             </div>
