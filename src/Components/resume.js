@@ -23,7 +23,7 @@ class Resume extends Component {
                         <p>Junior Web Developer specializing in backend development I am knowledgeable in C#, JavaScript and other back-end related software. I have experience in front end work like CSS and Adobe XD. I am eager to learn more and grow my experience in the field. </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
-                        <p>855 Ballard Street Apt. D</p>
+                        <p>1571 Semoran North Circle Apt 103, Winter Park 32792</p>
                         <h5>Phone</h5>
                         <p>(631) 839-3291</p>
                         <h5>Email</h5>
